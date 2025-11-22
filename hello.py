@@ -1,4 +1,4 @@
-print ("Hello    appsec   world")
+"""print ("Hello    appsec   world")
 
 for i in [  "Hello" ,   "appsec", "world"   ]:
         print(i),
@@ -11,3 +11,7 @@ run()
 
 #what does dirty code mean?
 #does it mean that the code is not formatted correctly?
+"""
+name = input("Enter your name: ")
+print(f"Hello appsec world from @{name}")
+
