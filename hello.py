@@ -1,3 +1,4 @@
+#smth
 import typer
 
 def main(
