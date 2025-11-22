@@ -1,7 +1,7 @@
 #smth
 import typer
 
-def main(
+def main( ##
     name: str,
     lastname: str = typer.Option("", help="Фамилия пользователя."),
     formal: bool = typer.Option(False, "--formal", "-f", help="Использовать формальное приветствие."),
